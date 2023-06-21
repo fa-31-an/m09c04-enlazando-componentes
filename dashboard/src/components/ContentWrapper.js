@@ -3,7 +3,7 @@ import TopBar from './TopBar';
 import ContentRowTop from './ContentRowTop';
 import Footer from './Footer';
 import { MoviesTable } from './MoviesTable';
-function ContentWrapper(){
+function ContentWrapper() {
     return (
         <React.Fragment>
             {/*<!-- Content Wrapper -->*/}
@@ -15,7 +15,7 @@ function ContentWrapper(){
                     <MoviesTable />
                     <Footer />
                 </div>
-            </div>    
+            </div>
         </React.Fragment>
     )
 }
